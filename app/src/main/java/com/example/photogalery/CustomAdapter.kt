@@ -27,6 +27,7 @@ class CustomAdapter(
         return mData.size
     }
 
+
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         var tmp = mData[position]
 //        holder.image.setImageResource(R.drawable.mewa_blada)
@@ -42,6 +43,7 @@ class CustomAdapter(
 //            holder.Date.text = mDate[position]
 
     }
+
 
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         //            val number = itemView.findViewById(R.id.textView7) as TextView
